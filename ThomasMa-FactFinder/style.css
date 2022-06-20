@@ -1,0 +1,59 @@
+/*
+Fox and Dog Theme: https://coolors.co/fb6602-1ac8ed-f6a705-773304-47a025
+Green Eggs and Ham Theme: https://coolors.co/10a312-40cc58-f8333c-ffffff-fc6a03
+Water Theme: https://coolors.co/0f5e9c-2389da-1ca3ec-ffffff-b3e9c7
+Sea Otter Theme: https://coolors.co/522d11-773304-3a506b-5bc0be-6fffe9
+Shrimp Theme: https://coolors.co/fcf6f5-e26d4a-ff9f9f-0f5e9c-1ca3ec
+*/
+
+main{
+	border: 5px solid #5CDB95;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows: 100px auto;
+	
+}	
+
+#factdisplay{
+	border: 5px double #05386B;
+	background-color: #FFFFFF;
+	font-family: Monaco;
+	font-size: 25px;
+}	
+ 
+img{
+	display: block;
+	padding-top: 50px;
+	Width: 255px;
+	height: 255px;
+	Margin: auto;
+}
+
+form{
+	border: 5px double #05386B;
+	background-color: #379683;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}	
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+form{
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+input{
+	color: #05386B;
+	background-color: #EDF5E1;
+	border: 3px solid #5CDB95;
+	border-radius: 20px;
+}
+
+input:hover{
+	background-color:#fca6ff;
+}	
